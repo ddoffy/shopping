@@ -6,25 +6,25 @@ import (
 	"time"
 
 	jwt "github.com/appleboy/gin-jwt"
+	cartHttpDeliver "github.com/ddoffy/shopping/cart/delivery/http"
+	cartRepo "github.com/ddoffy/shopping/cart/repository"
+	cartUcase "github.com/ddoffy/shopping/cart/usecase"
+	"github.com/ddoffy/shopping/controller"
 	"github.com/gin-gonic/gin"
-	cartHttpDeliver "github.com/karuppaiah/shopping/cart/delivery/http"
-	cartRepo "github.com/karuppaiah/shopping/cart/repository"
-	cartUcase "github.com/karuppaiah/shopping/cart/usecase"
-	"github.com/karuppaiah/shopping/controller"
 
-	"github.com/karuppaiah/shopping/middleware"
-	"github.com/karuppaiah/shopping/model"
-	productHttpDeliver "github.com/karuppaiah/shopping/product/delivery/http"
-	productRepo "github.com/karuppaiah/shopping/product/repository"
-	productUcase "github.com/karuppaiah/shopping/product/usecase"
+	"github.com/ddoffy/shopping/middleware"
+	"github.com/ddoffy/shopping/model"
+	productHttpDeliver "github.com/ddoffy/shopping/product/delivery/http"
+	productRepo "github.com/ddoffy/shopping/product/repository"
+	productUcase "github.com/ddoffy/shopping/product/usecase"
 
-	promotionHttpDeliver "github.com/karuppaiah/shopping/promotion/delivery/http"
-	promotionRepo "github.com/karuppaiah/shopping/promotion/repository"
-	promotionUcase "github.com/karuppaiah/shopping/promotion/usecase"
+	promotionHttpDeliver "github.com/ddoffy/shopping/promotion/delivery/http"
+	promotionRepo "github.com/ddoffy/shopping/promotion/repository"
+	promotionUcase "github.com/ddoffy/shopping/promotion/usecase"
 
-	loginHttpDeliver "github.com/karuppaiah/shopping/login/delivery/http"
-	loginRepo "github.com/karuppaiah/shopping/login/repository"
-	loginUcase "github.com/karuppaiah/shopping/login/usecase"
+	loginHttpDeliver "github.com/ddoffy/shopping/login/delivery/http"
+	loginRepo "github.com/ddoffy/shopping/login/repository"
+	loginUcase "github.com/ddoffy/shopping/login/usecase"
 	// gin-swagger middleware
 	// swagger embed files
 )

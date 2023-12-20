@@ -6,9 +6,9 @@ import (
 	"strconv"
 
 	"github.com/gin-gonic/gin"
-	"github.com/karuppaiah/shopping/middleware"
-	"github.com/karuppaiah/shopping/model"
-	promotionUcase "github.com/karuppaiah/shopping/promotion"
+	"github.com/ddoffy/shopping/middleware"
+	"github.com/ddoffy/shopping/model"
+	promotionUcase "github.com/ddoffy/shopping/promotion"
 	validator "gopkg.in/go-playground/validator.v9"
 )
 

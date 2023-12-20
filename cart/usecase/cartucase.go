@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/karuppaiah/shopping/cart"
-	"github.com/karuppaiah/shopping/model"
+	"github.com/ddoffy/shopping/cart"
+	"github.com/ddoffy/shopping/model"
 )
 
 // eUsecase having link to Repository

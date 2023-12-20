@@ -8,10 +8,10 @@ import (
 	"strconv"
 
 	"github.com/Sirupsen/logrus"
-	"github.com/karuppaiah/shopping/cart"
-	"github.com/karuppaiah/shopping/model"
-	productRepo "github.com/karuppaiah/shopping/product/repository"
-	promotionRepo "github.com/karuppaiah/shopping/promotion/repository"
+	"github.com/ddoffy/shopping/cart"
+	"github.com/ddoffy/shopping/model"
+	productRepo "github.com/ddoffy/shopping/product/repository"
+	promotionRepo "github.com/ddoffy/shopping/promotion/repository"
 )
 
 //eRepository with Connection to DB

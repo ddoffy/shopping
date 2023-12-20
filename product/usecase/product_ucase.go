@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/karuppaiah/shopping/model"
-	"github.com/karuppaiah/shopping/product"
+	"github.com/ddoffy/shopping/model"
+	"github.com/ddoffy/shopping/product"
 )
 
 type productUsecase struct {

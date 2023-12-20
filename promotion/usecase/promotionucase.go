@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/karuppaiah/shopping/model"
-	"github.com/karuppaiah/shopping/promotion"
+	"github.com/ddoffy/shopping/model"
+	"github.com/ddoffy/shopping/promotion"
 )
 
 type eUsecase struct {

@@ -5,16 +5,16 @@ import (
 	"log"
 	"time"
 
-	jwt "github.com/appleboy/gin-jwt"
+	jwt "github.com/appleboy/gin-jwt/v2"
+	loginRepo "github.com/ddoffy/shopping/login/repository"
+	loginUcase "github.com/ddoffy/shopping/login/usecase"
+	"github.com/ddoffy/shopping/model"
 	"github.com/gin-gonic/gin"
-	loginRepo "github.com/karuppaiah/shopping/login/repository"
-	loginUcase "github.com/karuppaiah/shopping/login/usecase"
-	"github.com/karuppaiah/shopping/model"
 )
 
 var identityKey = "id"
 
-//// Basic Setup and routers config
+// // Basic Setup and routers config
 type goMiddleware struct {
 	// another stuff , may be needed by middleware
 }

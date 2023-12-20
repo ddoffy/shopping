@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/karuppaiah/shopping/model"
-	productRepo "github.com/karuppaiah/shopping/product/repository"
-	"github.com/karuppaiah/shopping/promotion"
+	"github.com/ddoffy/shopping/model"
+	productRepo "github.com/ddoffy/shopping/product/repository"
+	"github.com/ddoffy/shopping/promotion"
 )
 
 type eRepository struct {

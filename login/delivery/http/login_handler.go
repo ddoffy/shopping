@@ -6,9 +6,9 @@ import (
 
 	jwt "github.com/appleboy/gin-jwt"
 	"github.com/gin-gonic/gin"
-	loginUcase "github.com/karuppaiah/shopping/login"
-	"github.com/karuppaiah/shopping/middleware"
-	"github.com/karuppaiah/shopping/model"
+	loginUcase "github.com/ddoffy/shopping/login"
+	"github.com/ddoffy/shopping/middleware"
+	"github.com/ddoffy/shopping/model"
 	validator "gopkg.in/go-playground/validator.v9"
 )
 

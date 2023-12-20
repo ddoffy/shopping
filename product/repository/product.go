@@ -5,8 +5,8 @@ import (
 	"database/sql"
 	"fmt"
 
-	"github.com/karuppaiah/shopping/model"
-	product "github.com/karuppaiah/shopping/product"
+	"github.com/ddoffy/shopping/model"
+	product "github.com/ddoffy/shopping/product"
 )
 
 type productRepository struct {

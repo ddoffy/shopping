@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/karuppaiah/shopping/login/mocks"
-	"github.com/karuppaiah/shopping/login/usecase"
-	"github.com/karuppaiah/shopping/model"
+	"github.com/ddoffy/shopping/login/mocks"
+	"github.com/ddoffy/shopping/login/usecase"
+	"github.com/ddoffy/shopping/model"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 )

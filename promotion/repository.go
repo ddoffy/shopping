@@ -3,7 +3,7 @@ package promotion
 import (
 	"context"
 
-	"github.com/karuppaiah/shopping/model"
+	"github.com/ddoffy/shopping/model"
 )
 
 type ERepository interface {

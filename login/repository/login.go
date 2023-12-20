@@ -6,8 +6,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/karuppaiah/shopping/login"
-	"github.com/karuppaiah/shopping/model"
+	"github.com/ddoffy/shopping/login"
+	"github.com/ddoffy/shopping/model"
 )
 
 type eRepository struct {

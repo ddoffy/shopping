@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/gin-gonic/gin"
-	"github.com/karuppaiah/shopping/middleware"
+	"github.com/ddoffy/shopping/middleware"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -3,7 +3,7 @@ package cart
 import (
 	"context"
 
-	"github.com/karuppaiah/shopping/model"
+	"github.com/ddoffy/shopping/model"
 )
 
 type EUsecase interface {
